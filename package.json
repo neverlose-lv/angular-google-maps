@@ -37,7 +37,7 @@
     "apidocs:snazzy": "compodoc -p packages/snazzy-info-window/tsconfig.lib.json --name @agm/snazzy-info-window  --output docs/public/api-docs/agm-snazzy-info-window/ --hideGenerator --disableCoverage",
     "apidocs:markerclusterer": "compodoc -p packages/markerclusterer/tsconfig.lib.json --name @agm/markerclusterer  --output docs/public/api-docs/markerclusterer/ --hideGenerator --disableCoverage",
     "apidocs:drawing": "compodoc -p packages/drawing/tsconfig.lib.json --name @agm/drawing  --output docs/public/api-docs/drawing/ --hideGenerator --disableCoverage",
-    "prepare": "ng build core --prod && ng build markerclusterer --prod && ng build snazzy-info-window --prod && ng build drawing --prod",
+    "prepare": "ng build core --prod && ng build markerclusterer --prod && ng build snazzy-info-window --prod && ng build drawing --prod"
   },
   "author": "Sebastian Holstein <info@sebastian-holstein.de>",
   "license": "MIT",
